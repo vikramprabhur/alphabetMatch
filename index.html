@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alphabet Match</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Alphabet Match</h1>
+      <p>Click the picture that begins with the letter!</p>
+    </div>
+    <div class="game-container">
+      <!-- Display the image choices -->
+      <div id="image-container"></div>
+
+      <!-- Display the letter -->
+      <div id="letter-container">
+        <span id="random-letter"></span>
+      </div>
+
+      <!-- Feedback Message -->
+      <p id="message"></p>
+
+      <!-- Score Display -->
+      <p id="score-display">Score: 0</p>
+
+      <!-- Restart Button -->
+      <button id="restart-button" onclick="restartGame()">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
