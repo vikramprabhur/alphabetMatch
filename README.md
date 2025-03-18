@@ -7,8 +7,8 @@ Alphabet Matching Game is an interactive learning game designed for toddlers to 
 - A random letter is displayed on the screen.
 - Three random images appear below it.
 - Click on the correct image that matches the letter.
-- Correct answer ➝ +5 points, moves to the next round.
-- Wrong answer ➝ -1 point, try again.
+- Correct answer ➝ adds five points, moves to the next round.
+- Wrong answer ➝ subtracts two points, try again.
 - Continue playing until you choose to restart the game.
 
 ## Technologies Used:
